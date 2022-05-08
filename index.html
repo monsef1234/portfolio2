@@ -26,6 +26,29 @@
     <script defer src="main.js"></script>
   </head>
   <body>
+    <!-- Dark Mode -->
+    <div class="darkthings">
+      <div class="btns">
+        <div class="gear">
+          <i class="fa-solid fa-gear"></i>
+        </div>
+        <div class="darkmode">
+          <i class="fa-solid fa-sun opacity"></i>
+          <i class="fa-solid fa-moon"></i>
+        </div>
+      </div>
+      <div class="themes-content">
+        <h4>Theme Colors</h4>
+        <div class="colors">
+          <span style="background-color: #ec1839"></span>
+          <span style="background-color: #fa5b0f"></span>
+          <span style="background-color: #249583"></span>
+          <span style="background-color: #0951bf"></span>
+          <span style="background-color: #ff56b7"></span>
+        </div>
+      </div>
+    </div>
+
     <!-- Menu bar -->
     <div class="menu">
       <i class="fa-solid fa-bars"></i>
@@ -135,30 +158,32 @@
             <div class="skill">
               <div class="header">
                 <h4>CSS</h4>
-                <span>95%</span>
+                <span class="skillname">0%</span>
               </div>
-              <div class="body"></div>
+              <div class="body"><div class="percentage"></div></div>
             </div>
             <div class="skill">
               <div class="header">
                 <h4>CSS</h4>
-                <span>95%</span>
+                <span class="skillname">0%</span>
               </div>
-              <div class="body"></div>
+              <div class="body"><div class="percentage"></div></div>
             </div>
             <div class="skill">
               <div class="header">
                 <h4>CSS</h4>
-                <span>95%</span>
+                <span class="skillname">0%</span>
               </div>
-              <div class="body"></div>
+              <div class="body"><div class="percentage"></div></div>
             </div>
             <div class="skill">
               <div class="header">
                 <h4>CSS</h4>
-                <span>95%</span>
+                <span class="skillname">0%</span>
               </div>
-              <div class="body"></div>
+              <div class="body">
+                <div class="percentage"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -438,6 +463,7 @@
           rows="10"
           placeholder="Message"
         ></textarea>
+        <button class="btn">Send Message</button>
       </form>
     </div>
   </body>
